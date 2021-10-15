@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+.to-do {
+    width: 500px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+}
+
+.to-do input {
+    margin-top: 20px;
+}
+
+.to-do input[type=text] {
+    width: 90%;
+    display: block;
+    font-size: 18px;
+    margin: 10px auto;
+    border-radius: 25px;
+    outline: none;
+    padding: 13px;
+}
+
+.to-do input[name=adi] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 22px;
+    float: left;
+}
+
+.to-do input[name=limp] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+/*  */
+
+.list-all {
+    max-width: 550px;
+    margin: auto;
+    position: relative;
+    top: 280px;
+}
+
+.taref-list-single {    
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.taref-list-single h1 {
+    padding: 10px;
+    float: left;
+}
+
+.taref-list-single .clui {
+    float: right;
+    margin: 12px;
+}
+
+.taref-list-single .clui i,
+.taref-list-single .mud i {
+    font-size: 30px;
+}
+
+.taref-list-single .mud {
+    float: right;
+    margin: 12px;
+}
+
+@media screen and (max-width: 550px) {
+    .to-do {
+        width: 100%;
+        margin: auto;
+    }
+
+}
