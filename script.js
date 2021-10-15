@@ -59,7 +59,7 @@ const add = () => {
 
     for(let i = 0;i < buttonMud.length;i++) {
       buttonMud[i].addEventListener('click',() => {
-        var namNew = prompt()
+        var namNew = prompt('escreva o novo item');
         nameTarefList[i].innerHTML = `${namNew}`
       });
     }
